@@ -71,6 +71,6 @@ p, h3 {
 	color: white;
 }
 
-background {
-	color: #0e5841;
+background, a {
+	color: red;
 }
