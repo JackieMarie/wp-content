@@ -1,6 +1,10 @@
 <?php
 add_theme_support('post-thumbnails');
 
+//Add Widget Areas inside {}
+function blank_widgets_init(){
+
+//FOOTER WIDGETS
 register_sidebar(array(
   'name' => ('Footer Left'),
   'id' => 'footer-left',
@@ -21,4 +25,25 @@ register_sidebar(array(
   'after_title' => '</h2>'
   ));
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
   ?>
