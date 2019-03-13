@@ -4,7 +4,7 @@
 
 <div class="container">
   <section>
-    <article id="header-image">
+    <article class="header-image">
     </article>
     <article>
         <?php if(have_posts()):
