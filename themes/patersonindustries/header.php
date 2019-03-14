@@ -10,19 +10,23 @@
   <body>
     <header>
       <div class="container">
-        <nav class="">
-          <?php if(get_header_image() == ''){?>
-            <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1><?php
-          }else{?>
-            <a href="<?php echo home_url('/'); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
-          <?php } ?>
+        <nav class="row">
+          <div class="twelve columns"
+            <?php if(get_header_image() == ''){?>
+              <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1><?php
+            }else{?>
+              <a href="<?php echo home_url('/'); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
+            <?php } ?>
+          </div>
         </nav>
-        <nav class="">
-         <?php wp_nav_menu(array(
-             'theme_location'   =>  'header-menu',
-             'container-class'  =>  'menu-header'
-           ));
-         ?>
+        <nav class="row">
+          <div class = "twelve columns">
+            <?php wp_nav_menu(array(
+                'theme_location'   =>  'header-menu',
+                'container-class'  =>  'menu-header'
+              ));
+            ?>
+          </div>
        </nav>
       </div>
     </header>
