@@ -107,9 +107,7 @@ register_sidebar( array(
 ));
 
 
-
-
-
+}
 
 //END WIDGET AREAS
 
@@ -138,5 +136,4 @@ add_theme_support('custom-header', $custom_image_header);
 
 
 
-}
   ?>
