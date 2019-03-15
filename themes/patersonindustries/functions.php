@@ -107,7 +107,7 @@ register_sidebar( array(
 ));
 
 
-
+}
 
 
 
@@ -138,5 +138,5 @@ add_theme_support('custom-header', $custom_image_header);
 
 
 
-}
+
   ?>
