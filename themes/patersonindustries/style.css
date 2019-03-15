@@ -31,27 +31,29 @@ a:hover {
   outline: 0;
 }
 
-/* FONTS */
+/* IMPORT FILES */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+@import "css/normalize.css";
+@import "css/skeleton.css";
 
-/*Colors
+/* COLOR CLASSES */
 
-Primary:
-#032B2a - Dark Green
-#0e5841 - Green
-#000000	- Black
+/*Primary:*/
+.dkgreen {color: #032B2a}
+.green {color: #0e5841}
+.black {color: #000}
 
-Secondary:
-#85755B - Deep Taupe
-#142239 - Dark Navy
-#213960 - Medium Blue
+/*Secondary:*/
+.deep-taupe {color: #85755B}
+.dknavy {color: #142239}
+.med-blue {color: #213960}
 
-Neutral
-#e3e3e3 - Grey
-#ffffff	- White
+/*Neutral:*/
+.grey {color: #e3e3e3}
+.white {color: #fff}
 
-*/
+/* FONTS AND LINKS */
 
 h1 {
 	font-family: 'Roboto Slab', serif;
