@@ -108,7 +108,7 @@ register_sidebar( array(
 
 
 
-
+}
 
 
 //END WIDGET AREAS
@@ -136,7 +136,4 @@ $custom_image_header = array(
 add_theme_support('custom-header', $custom_image_header);
 
 
-
-
-}
-  ?>
+?>

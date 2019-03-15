@@ -18,7 +18,7 @@
         if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-            <h2><?php the_title(); ?></h2>
+      <h2><?php the_title(); ?></h2>
             <?php the_content();
           } //ends while loop
         } //ends if statement
@@ -30,12 +30,32 @@
     </div>
   </main>
   <!--Two Widgets for Equipment and Experience -->
-
-
+    <div class="row">
+      <div class="seven columns">
+        <?php dynamic_sidebar('equipment-image'); ?>
+      </div>
+      <div class="five columns">
+        <?php dynamic_sidebar('equipment-text'); ?>
+      </div>
+    </div>
   <!--Widgets for Crew -->
-
+  <div class="row">
+    <div class="three columns">
+      <?php dynamic_sidebar(''); ?>
+    </div>
+    <div class="three columns">
+      <?php dynamic_sidebar('crew-image'); ?>
+    </div>
+    <div class="six columns">
+      <?php dynamic_sidebar('crew-text'); ?>
+    </div>
+  </div>
   <!--Widgets for Community Involvement -->
-
+  <div class="row">
+    <div class="three columns">
+      <?php dynamic_sidebar('community-slider'); ?>
+    </div>
+  </div>
   <!--Call To Action Section -->
 
   <section class="row">

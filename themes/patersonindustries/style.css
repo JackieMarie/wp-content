@@ -76,3 +76,14 @@ p, h3 {
 background, a {
 	color: red;
 }
+footer {
+	background-color: #0e5841;
+	height: 100px;
+	width: 100vw;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+footer p {
+	color: #000;
+}
