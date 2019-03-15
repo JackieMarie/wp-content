@@ -32,15 +32,15 @@ a:hover {
 }
 
 /* IMPORT FILES */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
 @import "css/normalize.css";
 @import "css/skeleton.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
 
 /* COLOR CLASSES */
 
 /*Primary:*/
-.dkgreen {color: #032B2a}
+.dkgreen {color: #084324}
 .green {color: #0e5841}
 .black {color: #000}
 
@@ -74,5 +74,47 @@ p, h3 {
 }
 
 background, a {
-	color: red;
+	color: white;
+}
+
+
+/***** HEADER *******/
+
+header .container {
+	background-color:#084324;
+	color: #fff;
+}
+
+.menu-header-menu-container {
+  /* background-color:#084324;
+	color: #fff; */
+	padding: 10px 8px;
+}
+
+header .row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul#menu-header-menu {
+    position: relative;
+    display: inline-block;
+}
+
+ul#menu-header-menu li {
+    display: inline;
+    padding-right: 8px;
+}
+
+ul#menu-header-menu a {
+    text-decoration: none;
+		font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px 8px;
+    color: #ffffff;
+  }
+
+ul#menu-header-menu a:hover{
+  text-decoration: underline;
 }

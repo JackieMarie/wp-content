@@ -31,7 +31,6 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -225,7 +224,7 @@ input[type="button"].button-primary:focus {
   text-decoration: none; }
 
 
-/* Forms
+/* Forms -WE NEED TO MODIFY ALANA FOR OUR FORMS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
 input[type="number"],

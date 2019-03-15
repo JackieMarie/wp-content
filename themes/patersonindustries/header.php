@@ -22,10 +22,10 @@
         <nav class="row">
           <div class = "twelve columns">
             <?php wp_nav_menu(array(
-                'theme_location'   =>  'header-menu',
-                'container-class'  =>  'menu-header'
-              ));
-            ?>
+              'theme_location'   =>  'header-menu',
+              'container-class'  =>  'menu-header'
+            ));
+          ?>
           </div>
        </nav>
       </div>
