@@ -52,7 +52,7 @@
   </div>
   <!--Widgets for Community Involvement -->
   <div class="row">
-    <div class="three columns">
+    <div class="twelve columns">
       <?php dynamic_sidebar('community-slider'); ?>
     </div>
   </div>

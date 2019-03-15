@@ -23,7 +23,7 @@
   </main>
   <!--Past Projects -->
     <div class="row">
-      <div class="nine columns">
+      <div class="twelve columns">
         <?php dynamic_sidebar('past-projects'); ?>
       </div>
     </div>
