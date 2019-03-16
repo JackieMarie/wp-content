@@ -107,6 +107,338 @@ register_sidebar( array(
 ));
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//HOME PAGE WIDGETS
+
+register_sidebar( array(
+  'name'          =>    ('Work Hard'),
+  'id'            =>    'work-hard',
+  'description'   =>    'Widget for Work Hard section on pages',
+  'before_widget' =>    '<div class="work-hard">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-hard">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Stay Safe'),
+  'id'            =>    'stay-safe',
+  'description'   =>    'Widget for Work Hard section on page',
+  'before_widget' =>    '<div class="stay-safe">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-hard">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Be Humble'),
+  'id'            =>    'be-humble',
+  'description'   =>    'Widget for Work Hard section on page',
+  'before_widget' =>    '<div class="be-humble">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-hard">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Testimonials'),
+  'id'            =>    'testimonials',
+  'description'   =>    'Widget for Testimonials section on page',
+  'before_widget' =>    '<div class="testimonials">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-testimonials">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Projects'),
+  'id'            =>    'projects',
+  'description'   =>    'Widget for Projects section on page',
+  'before_widget' =>    '<div class="projects">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-projects">',
+  'after_title'   =>    '</h2>',
+));
+
+
+
+
+
+
+
+
+
+
+
 }
 
 //END WIDGET AREAS

@@ -1,6 +1,6 @@
-<?php //Template Name: 404 Page
+<?php /* Template Name: 404 Page */ ?>
 
-get_header(); ?>
+<? php get_header(); ?>
 
 <div class="container">
       <h2>Sorry! We can't find that information.</h2>

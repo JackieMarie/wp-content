@@ -8,6 +8,13 @@
   Text Domain: patersonindustries
 */
 
+/* IMPORT FILES */
+@import "css/normalize.css";
+@import "css/skeleton.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -31,11 +38,6 @@ a:hover {
   outline: 0;
 }
 
-/* IMPORT FILES */
-@import "css/normalize.css";
-@import "css/skeleton.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
 
 /* COLOR CLASSES */
 
@@ -117,4 +119,13 @@ ul#menu-header-menu a {
 
 ul#menu-header-menu a:hover{
   text-decoration: underline;
+}
+
+
+/*******FOOTER********/
+
+
+footer .container {
+  background-color: #084324;
+  padding-top: 45px;
 }
