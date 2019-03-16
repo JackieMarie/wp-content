@@ -41,7 +41,6 @@ html {
 /* COLOR CLASSES */
 
 /*Primary:*/
-<<<<<<< HEAD
 .dkgreen {color: #084324}
 .green {color: #0e5841}
 .black {color: #000}
@@ -85,14 +84,10 @@ background, a {
 
 /***** HEADER *******/
 
-header {
-		width: 100vw;
-		background-color:#084324;
-}
-
 header .container {
-	/* background-color:#084324; */
+	background-color:#084324;
 	color: #fff;
+	width: 100vw;
 }
 
 .menu-header-menu-container {
@@ -145,6 +140,7 @@ footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
+	padding-top: 45px;
 }
 footer p {
 	color: #000;
@@ -167,7 +163,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.button {
+/* .button {
   background-color: #084324;
   color: white;
   border: 2px solid white;
@@ -179,12 +175,12 @@ a:hover {
   font-size: 16px;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  /* transition-duration: 0.4s;
   cursor: pointer;
-}
-
+} */
+/*
 .button:hover {
   background-color: white;
   color: #084324;
   border: 2px solid #084324;
-}
+} */
