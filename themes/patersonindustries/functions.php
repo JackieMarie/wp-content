@@ -65,7 +65,6 @@ register_sidebar(array(
     'name'          =>    ('Services Header Image'),
     'id'            =>    'header-image-service',
     'description'   =>    'Header image on Services Page',
-    'before_widget' =>    '<div class="header-image-published-widget">',
     'before_widget' =>    '<div class="header-image-services-widget">',
     'after_widget'  =>    '</div>',
     'before_title'  =>    '<h1 class="widget-title-header">',
@@ -321,7 +320,6 @@ function custom_menus(){
     'footer-menu'   =>  ('Footer Menu'),
   ));
 }
-
 
 add_action('init', 'custom_menus');
 

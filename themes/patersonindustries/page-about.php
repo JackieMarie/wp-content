@@ -18,7 +18,7 @@
         if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-      <h2><?php the_title(); ?></h2>
+            <h2><?php the_title(); ?></h2>
             <?php the_content();
           } //ends while loop
         } //ends if statement
@@ -57,7 +57,6 @@
     </div>
   </div>
   <!--Call To Action Section -->
-
   <section class="row">
     <div class="twelve columns">
         <?php dynamic_sidebar('call-to-action'); ?>

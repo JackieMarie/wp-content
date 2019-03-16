@@ -39,6 +39,5 @@
         <?php dynamic_sidebar('call-to-action'); ?>
     </article>
   </section>
-</div>
 
 <?php get_footer(); ?>
