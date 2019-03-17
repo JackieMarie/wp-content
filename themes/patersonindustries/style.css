@@ -163,25 +163,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-button, .button, input[type=button], input[type=submit], input[type=reset] {
-  font: inherit;
-  color: white;
-  font-size: 16px;
-  /* size comes from text & padding (no width/height) */
-  padding: .75em 1.25em; 
-  text-decoration: none;
-  text-align: center;
-  border: solid 3px transparent;
-  border-radius: 4px;
-  background-color: #084324;
-  cursor: pointer;
-}
-.button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-  background-color: white;
-  color: #084324;
-  border-color: currentColor;
-}
-
 /*Transparent background images for CTA sections*/
 .circles {
 	background-image: url('images/abstract-alloy-aluminum-1381938-transparent.jpg');
