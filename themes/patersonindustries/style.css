@@ -8,6 +8,13 @@
   Text Domain: patersonindustries
 */
 
+/* IMPORT FILES */
+@import "css/normalize.css";
+@import "css/skeleton.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -22,12 +29,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
-
-/* IMPORT FILES */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
-@import "css/normalize.css";
-@import "css/skeleton.css";
+a:active,
+a:hover {
+  outline: 0;
+}
 
 html {
 	font-family: 'Roboto', sans-serif;
@@ -36,18 +41,18 @@ html {
 /* COLOR CLASSES */
 
 /*Primary:*/
-.dkgreen {color: #084324;}
-.green {color: ##0E5841;}
-.black {color: #000;}
+.dkgreen {color: #084324}
+.green {color: #0e5841}
+.black {color: #000}
 
 /*Secondary:*/
-.deep-taupe {color: #85755B;}
-.dknavy {color: #142239;}
-.med-blue {color: #213960;}
+.deep-taupe {color: #85755B}
+.dknavy {color: #142239}
+.med-blue {color: #213960}
 
 /*Neutral:*/
-.grey {color: #e3e3e3;}
-.white {color: #fff;}
+.grey {color: #e3e3e3}
+.white {color: #fff}
 
 /* FONTS AND LINKS */
 
@@ -69,6 +74,76 @@ h3 {
 p, a {
 	font: 'Roboto', sans-serif;
 	font-size: 16px;
+	color: #000000;
+}
+
+background, a {
+	color: white;
+}
+
+
+/***** HEADER *******/
+
+header .container {
+	background-color:#084324;
+	color: #fff;
+	width: 100vw;
+}
+
+.menu-header-menu-container {
+  /* background-color:#084324;
+	color: #fff; */
+	padding: 10px 8px;
+}
+
+header .row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul#menu-header-menu {
+    position: relative;
+    display: inline-block;
+}
+
+ul#menu-header-menu li {
+    display: inline;
+    padding-right: 8px;
+}
+
+ul#menu-header-menu a {
+    text-decoration: none;
+		font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px 8px;
+    color: #ffffff;
+  }
+
+ul#menu-header-menu a:hover{
+  text-decoration: underline;
+}
+
+
+/*******FOOTER********/
+
+/*
+footer .container {
+  background-color: #084324;
+  padding-top: 45px;
+} */
+
+footer {
+	background-color: #0e5841;
+	height: 100px;
+	width: 100vw;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-top: 45px;
+}
+footer p {
+	color: #000;
 }
 
 a:link {
@@ -88,9 +163,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-.button {
-  background-color: #084324; 
-  color: white; 
+/* .button {
+  background-color: #084324;
+  color: white;
   border: 2px solid white;
   color: white;
   padding: 16px 32px;
@@ -100,12 +175,12 @@ a:hover {
   font-size: 16px;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  /* transition-duration: 0.4s;
   cursor: pointer;
-}
-
+} */
+/*
 .button:hover {
   background-color: white;
   color: #084324;
   border: 2px solid #084324;
-}
+} */

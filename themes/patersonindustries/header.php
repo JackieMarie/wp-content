@@ -11,7 +11,7 @@
     <header>
       <div class="container">
         <nav class="row">
-          <div class="twelve columns"
+          <div class="twelve columns">
             <?php if(get_header_image() == ''){?>
               <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1><?php
             }else{?>
@@ -22,10 +22,10 @@
         <nav class="row">
           <div class = "twelve columns">
             <?php wp_nav_menu(array(
-                'theme_location'   =>  'header-menu',
-                'container-class'  =>  'menu-header'
-              ));
-            ?>
+              'theme_location'   =>  'header-menu',
+              'container-class'  =>  'menu-header'
+            ));
+          ?>
           </div>
        </nav>
       </div>

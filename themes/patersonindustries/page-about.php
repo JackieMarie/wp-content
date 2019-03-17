@@ -30,14 +30,33 @@
     </div>
   </main>
   <!--Two Widgets for Equipment and Experience -->
-
-
+    <div class="row">
+      <div class="seven columns">
+        <?php dynamic_sidebar('equipment-image'); ?>
+      </div>
+      <div class="five columns">
+        <?php dynamic_sidebar('equipment-text'); ?>
+      </div>
+    </div>
   <!--Widgets for Crew -->
-
+  <div class="row">
+    <div class="three columns">
+      <?php dynamic_sidebar(''); ?>
+    </div>
+    <div class="three columns">
+      <?php dynamic_sidebar('crew-image'); ?>
+    </div>
+    <div class="six columns">
+      <?php dynamic_sidebar('crew-text'); ?>
+    </div>
+  </div>
   <!--Widgets for Community Involvement -->
-
+  <div class="row">
+    <div class="twelve columns">
+      <?php dynamic_sidebar('community-slider'); ?>
+    </div>
+  </div>
   <!--Call To Action Section -->
-
   <section class="row">
     <div class="twelve columns">
         <?php dynamic_sidebar('call-to-action'); ?>

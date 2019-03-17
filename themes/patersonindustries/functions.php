@@ -63,9 +63,9 @@ register_sidebar(array(
 //Header Image Widget - SERVICES PAGE
   register_sidebar( array(
     'name'          =>    ('Services Header Image'),
-    'id'            =>    'header-image-published',
+    'id'            =>    'header-image-service',
     'description'   =>    'Header image on Services Page',
-    'before_widget' =>    '<div class="header-image-published-widget">',
+    'before_widget' =>    '<div class="header-image-services-widget">',
     'after_widget'  =>    '</div>',
     'before_title'  =>    '<h1 class="widget-title-header">',
     'after_title'   =>    '</h1>',
@@ -93,7 +93,150 @@ register_sidebar(array(
     'after_title'   =>    '</h1>',
   ));
 
+//ABOUT PAGE WIDGETS
+register_sidebar(array(
+  'name'          =>    ('Equipment Image'),
+  'id'            =>    'equipment-image',
+  'description'   =>    'Image for Equipment and Expertise',
+  'before_widget' =>    '<div class="equipment-image">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
 
+register_sidebar(array(
+  'name'          =>    ('Equipment Text'),
+  'id'            =>    'equipment-text',
+  'description'   =>    'Description of Equipment and Expertise',
+  'before_widget' =>    '<div class="equipment-text">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Crew Image'),
+  'id'            =>    'crew-image',
+  'description'   =>    'Crew Photo',
+  'before_widget' =>    '<div class="crew">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Crew Text'),
+  'id'            =>    'crew-text',
+  'description'   =>    'Crew Titles',
+  'before_widget' =>    '<div class="crew-text">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Community Involvement Images'),
+  'id'            =>    'community-slider',
+  'description'   =>    'Community Involvement Slider',
+  'before_widget' =>    '<div class="community-images">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+
+//SERVICE PAGE WIDGETS
+register_sidebar(array(
+  'name'          =>    ('Services List'),
+  'id'            =>    'service-content',
+  'description'   =>    'List of Services',
+  'before_widget' =>    '<div class="service-content">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Past Projects Slider'),
+  'id'            =>    'past-projects',
+  'description'   =>    'Past Projects Slider',
+  'before_widget' =>    '<div class="past-projects">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Equipment Text'),
+  'id'            =>    'equipment-text',
+  'description'   =>    'Description of Equipment and Experitise',
+  'before_widget' =>    '<div class="equipment-text">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+
+//SAFETY PAGE WIDGETS
+register_sidebar(array(
+  'name'          =>    ('Certifications'),
+  'id'            =>    'certifications-symbols',
+  'description'   =>    'Certifications',
+  'before_widget' =>    '<div class="certification">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Safety: Our Crew'),
+  'id'            =>    'safety-crew',
+  'description'   =>    'Safety description when it comes to the crew',
+  'before_widget' =>    '<div class="safety-crew">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Incident Count'),
+  'id'            =>    'incident-count',
+  'description'   =>    'Incident Counter',
+  'before_widget' =>    '<div class="incident-count">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('Perfect Safety Record Text'),
+  'id'            =>    'safety-record-text',
+  'description'   =>    'Description for Safety Record',
+  'before_widget' =>    '<div class="safety-content">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('AIMSIO Image'),
+  'id'            =>    'aimsio-image',
+  'description'   =>    'AIMSIO Image',
+  'before_widget' =>    '<div class="aimsio-image">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar(array(
+  'name'          =>    ('AIMSIO Text'),
+  'id'            =>    'aimsio-text',
+  'description'   =>    'AIMSIO Text',
+  'before_widget' =>    '<div class="safety-content">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
 
 //CALL TO ACTION Widget
 register_sidebar( array(
@@ -106,10 +249,64 @@ register_sidebar( array(
   'after_title'   =>    '</h2>',
 ));
 
+//HOME PAGE WIDGETS
+
+register_sidebar( array(
+  'name'          =>    ('Work Hard'),
+  'id'            =>    'work-hard',
+  'description'   =>    'Widget for Work Hard section on pages',
+  'before_widget' =>    '<div class="work-hard">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-hard">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Stay Safe'),
+  'id'            =>    'stay-safe',
+  'description'   =>    'Widget for Work Hard section on page',
+  'before_widget' =>    '<div class="stay-safe">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-hard">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Be Humble'),
+  'id'            =>    'be-humble',
+  'description'   =>    'Widget for Work Hard section on page',
+  'before_widget' =>    '<div class="be-humble">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-hard">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Testimonials'),
+  'id'            =>    'testimonials',
+  'description'   =>    'Widget for Testimonials section on page',
+  'before_widget' =>    '<div class="testimonials">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-testimonials">',
+  'after_title'   =>    '</h2>',
+));
+
+register_sidebar( array(
+  'name'          =>    ('Projects'),
+  'id'            =>    'projects',
+  'description'   =>    'Widget for Projects section on page',
+  'before_widget' =>    '<div class="projects">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2 class="widget-title-projects">',
+  'after_title'   =>    '</h2>',
+));
+
+
+
+
+
 
 }
-
-
 
 //END WIDGET AREAS
 

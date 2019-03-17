@@ -1,5 +1,6 @@
-<?php /* Template Name: Archive Page */
-get_header(); ?>
+<?php /* Template Name: Archive Page */?>
+
+<?php get_header(); ?>
 
 
 

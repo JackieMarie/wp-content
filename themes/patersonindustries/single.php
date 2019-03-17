@@ -9,12 +9,12 @@
         if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-            <h2 class="post-title"><?php the_title(); ?></h2>
-            <h6 class="post-date"><?php echo "Published on: " . get_the_date(); ?></h6>
+            <h2 class="post-title black"><?php the_title(); ?></h2>
+            <h6 class="post-date black"><?php echo "Published on: " . get_the_date(); ?></h6>
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
-            <div class="post-content">
+            <div class="post-content black">
               <?php the_content(); ?>
             </div>
             <div class="pagination-single">

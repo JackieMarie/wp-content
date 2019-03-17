@@ -1,10 +1,12 @@
 <?php /*Template Name: Home Page */ ?>
 
+<?php get_header(); ?>
+
 <div class="container">
   <!--Header Image Section -->
   <header class="row">
     <section class="twelve columns">
-      <?php dynamic_sidebar('header-image-hom'); ?>
+      <?php dynamic_sidebar('header-image-home'); ?>
     </section>
   </header>
   <!--WORK HARD - STAY SAFE - BE HUMBLE Section -->
@@ -26,10 +28,16 @@
     </article>
   </section>
   <!--Projects Section  -->
-
-
+  <section class="row">
+    <article class="twelve columns">
+        <?php dynamic_sidebar('projects'); ?>
+    </article>
+  </section>
   <!--Call To Action Section  -->
-
-</div>
+  <section class="row">
+    <article class="twelve columns">
+        <?php dynamic_sidebar('call-to-action'); ?>
+    </article>
+  </section>
 
 <?php get_footer(); ?>
