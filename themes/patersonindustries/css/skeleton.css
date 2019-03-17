@@ -162,8 +162,8 @@ a:hover {
   color: #0FA0CE; }
 
 
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Default Buttons
+
 .button,
 button,
 input[type="submit"],
@@ -222,7 +222,7 @@ input[type="button"].button-primary:focus {
   background-color: #fff;
   border-color: #0e5841;
   text-decoration: none; }
-
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Forms -WE NEED TO MODIFY ALANA FOR OUR FORMS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
