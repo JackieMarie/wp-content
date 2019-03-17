@@ -22,7 +22,7 @@
     </div>
   </main>
   <!--Past Projects -->
-    <div class="row">
+    <div class="row" id="pipe-background">
       <div class="twelve columns">
         <?php dynamic_sidebar('past-projects'); ?>
       </div>

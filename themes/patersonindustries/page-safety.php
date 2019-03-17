@@ -18,8 +18,8 @@
     </div>
   </div>
   <!--Our Crew -->
-  <main class="row">
-    <div class="six columns">
+  <main class="row green">
+    <div class="eight columns">
       <?php dynamic_sidebar('safety-crew'); ?>
     </div>
   </main>
@@ -33,7 +33,7 @@
       </div>
     </div>
   <!--AIMSIO Application -->
-  <div class="row">
+  <div class="row grey">
     <div class="four columns">
       <?php dynamic_sidebar('aimsio-image'); ?>
     </div>
