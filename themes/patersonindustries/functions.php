@@ -7,8 +7,18 @@ function blank_widgets_init(){
 
 //FOOTER WIDGETS
 register_sidebar(array(
-  'name' => ('Footer Left'),
-  'id' => 'footer-left',
+  'name' => ('Footer Left 1'),
+  'id' => 'footer-left1',
+  'description' => 'widget for footer left area',
+  'before_widget' => '<div class="footer-left">',
+  'after_widget' => '</div>',
+  'before_title' => '<h2>',
+  'after_title' => '</h2>'
+));
+
+register_sidebar(array(
+  'name' => ('Footer Left 2'),
+  'id' => 'footer-left2',
   'description' => 'widget for footer left area',
   'before_widget' => '<div class="footer-left">',
   'after_widget' => '</div>',
