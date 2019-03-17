@@ -41,18 +41,18 @@ html {
 /* COLOR CLASSES */
 
 /*Primary:*/
-.dkgreen {color: #084324}
-.green {color: #0e5841}
-.black {color: #000}
+.dkgreen {background-color: #084324}
+.green {background-color: #0e5841}
+.black {background-color: #000}
 
 /*Secondary:*/
-.deep-taupe {color: #85755B}
-.dknavy {color: #142239}
-.med-blue {color: #213960}
+.deep-taupe {background-color: #85755B}
+.dknavy {background-color: #142239}
+.med-blue {background-color: #213960}
 
 /*Neutral:*/
-.grey {color: #e3e3e3}
-.white {color: #fff}
+.grey {background-color: #e3e3e3}
+.white {background-color: #fff}
 
 /* FONTS AND LINKS */
 
