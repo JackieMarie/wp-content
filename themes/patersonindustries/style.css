@@ -188,12 +188,27 @@ a:hover {
 /*Transparent background images for CTA sections*/
 .circles {
 	background-image: url('images/abstract-alloy-aluminum-1381938-transparent.jpg');
+  background-color: #e3e3e3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .verticalpipes {
 	background-image: url('images/close-up-colors-pattern-1662573-transparent.jpg');
+  background-color: #e3e3e3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .crossedpipes {
 	background-image: url('images/construction-material-grid-metal-35543-transparent.jpg');
+  background-color: #e3e3e3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
