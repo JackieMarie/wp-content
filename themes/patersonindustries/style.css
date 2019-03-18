@@ -14,7 +14,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -29,51 +28,63 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
-a:active,
-a:hover {
-  outline: 0;
-}
-
 html {
 	font-family: 'Roboto', sans-serif;
 }
 
+/********ALL PAGES*************/
+
 /* COLOR CLASSES */
 
-/*Primary:*/
-.dkgreen {color: #084324}
-.green {color: #0e5841}
-.black {color: #000}
+/*Primary - font:*/
+.font-dkgreen {color: #084324}
+.font-green {color: #0e5841}
+.font-black {color: #000}
 
-/*Secondary:*/
-.deep-taupe {color: #85755B}
-.dknavy {color: #142239}
-.med-blue {color: #213960}
+/*Secondary - font:*/
+.font-deep-taupe {color: #85755B}
+.font-dknavy {color: #142239}
+.font-med-blue {color: #213960}
 
-/*Neutral:*/
-.grey {color: #e3e3e3}
-.white {color: #fff}
+/*Neutral - font:*/
+.font-grey {color: #e3e3e3}
+.font-white {color: #fff}
+
+/*Primary - background:*/
+.bkground-dkgreen {color: #084324}
+.bkground-green {color: #0e5841}
+.bkground-black {color: #000}
+
+/*Secondary - background:*/
+.bkground-deep-taupe {color: #85755B}
+.bkground-dknavy {color: #142239}
+.bkground-med-blue {color: #213960}
+
+/*Neutral - background:*/
+.bkground-grey {color: #e3e3e3}
+.bkground-white {color: #fff}
+
 
 /* FONTS AND LINKS */
 
 h1 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 32px;
+	/* font-size: 32px; */
 }
 
 h2 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 25px;
+	/* font-size: 25px; */
 }
 
 h3 {
-	font: 'Roboto', sans-serif;
-	font-size: 21px;
+	font-family: 'Roboto', sans-serif;
+	/* font-size: 21px; */
 }
 
 p, a {
-	font: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	/* font-size: 16px; */
 	color: #000000;
 }
 
@@ -81,8 +92,53 @@ background, a {
 	color: white;
 }
 
+a:link {
+  color: #0e5841;
+	text-decoration: none;
+}
 
-/***** HEADER *******/
+a:visited {
+	color: #0e5841;
+	text-decoration: underline;
+}
+
+/* Improve readability when focused and also mouse hovered in all browsers.*/
+a:hover {
+  outline: 0;
+	color: #85755B;
+	text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* BUTTONS - SEE SKELETON.CSS FILE */
+
+/* .button {
+  background-color: #084324;
+  color: white;
+  border: 2px solid white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  /* transition-duration: 0.4s;
+  cursor: pointer;
+} */
+/*
+.button:hover {
+  background-color: white;
+  color: #084324;
+  border: 2px solid #084324;
+} */
+
+/*  HEADER AND NAVIGATION  */
 
 header .container {
 	background-color:#084324;
@@ -124,8 +180,7 @@ ul#menu-header-menu a:hover{
   text-decoration: underline;
 }
 
-
-/*******FOOTER********/
+/*  FOOTER  */
 
 /*
 footer .container {
@@ -135,56 +190,125 @@ footer .container {
 
 footer {
 	background-color: #0e5841;
-	height: 100px;
+	padding: 5% 0;
 	width: 100vw;
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	padding-top: 45px;
 }
+
 footer p {
 	color: #000;
 }
 
-a:link {
-  color: #0e5841;
-	text-decoration: none;
-}
+/***** HOME PAGE *****/
 
-a:visited {
-	color: #0e5841;
-	text-decoration: underline;
-}
 
-/* Improve readability when focused and also mouse hovered in all browsers.*/
-a:hover {
-  outline: 0;
-	color: #85755B;
-	text-decoration: underline;
-}
 
-/* .button {
-  background-color: #084324;
-  color: white;
-  border: 2px solid white;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  /* transition-duration: 0.4s;
-  cursor: pointer;
-} */
-/*
-.button:hover {
-  background-color: white;
-  color: #084324;
-  border: 2px solid #084324;
-} */
+
+
+
+
+
+
+
+
+/***** ABOUT PAGE *****/
 
 #pipe-background {
 	background-image: url('http://justbelievedesigns.com/patersonindustries/wp-content/uploads/2019/03/construction-material-grid-metal-35543-transparent.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** SERVICES PAGE *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** SAFETY PAGE *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** CAREER PAGE *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** CONTACT PAGE *****/
+
+input.wpcf7-form-control.wpcf7-text {
+    width: 100%;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+}
+
+.img-contact {
+  width: 100%;
+  max-width: 1000px;
+  /* padding-left: 0px; */
 }
