@@ -23,10 +23,11 @@
         } //ends if statement
        ?>
     </article>
-    <div class="twelve columns">
+  </section>
+  <section class="row">
+    <article class="twelve columns">
       <?php dynamic_sidebar('call-to-action'); ?>
-    </div>
-  </div>
+    </article>
+  </section>
 </main>
-
 <?php get_footer(); ?>
