@@ -30,7 +30,7 @@
     </div>
   </main>
   <!--Two Widgets for Equipment and Experience -->
-    <div class="row">
+    <div class="row" id="pipe-background">
       <div class="seven columns">
         <?php dynamic_sidebar('equipment-image'); ?>
       </div>
@@ -39,7 +39,7 @@
       </div>
     </div>
   <!--Widgets for Crew -->
-  <div class="row">
+  <div class="row med-blue">
     <div class="three columns">
       <?php dynamic_sidebar(''); ?>
     </div>

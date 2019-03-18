@@ -145,6 +145,7 @@ footer {
 footer p {
 	color: #000;
 }
+<<<<<<< HEAD
 
 a:link {
   color: #0e5841;
@@ -184,3 +185,8 @@ a:hover {
   color: #084324;
   border: 2px solid #084324;
 } */
+=======
+#pipe-background {
+	background-image: url('images/pipes.jpeg');
+}
+>>>>>>> b04aa907fbc6726344a395a895b5eed34bb83500

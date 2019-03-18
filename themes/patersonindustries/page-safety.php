@@ -18,8 +18,13 @@
     </article>
   </section>
   <!--Our Crew -->
+<<<<<<< HEAD
   <main class="row">
     <section class="six columns">
+=======
+  <main class="row green">
+    <div class="eight columns">
+>>>>>>> b04aa907fbc6726344a395a895b5eed34bb83500
       <?php dynamic_sidebar('safety-crew'); ?>
     </section>
   </main>
@@ -33,8 +38,13 @@
     </article>
   </section>
   <!--AIMSIO Application -->
+<<<<<<< HEAD
   <section class="row">
     <article class="four columns">
+=======
+  <div class="row grey">
+    <div class="four columns">
+>>>>>>> b04aa907fbc6726344a395a895b5eed34bb83500
       <?php dynamic_sidebar('aimsio-image'); ?>
     </article>
     <article class="eight columns">
