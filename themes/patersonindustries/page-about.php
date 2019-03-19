@@ -25,7 +25,7 @@
        ?>
     </div>
   <!--Widget for Triangle image -->
-  <article class="six columns">
+  <article class="five columns">
     <?php get_sidebar(); ?>
   </article>
   </main>
