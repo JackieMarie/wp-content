@@ -1,13 +1,13 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="six columns">
-            <?php dynamic_sidebar('footer-left1'); ?>
+          <div class="one-third column">
+            <?php dynamic_sidebar('footer-left'); ?>
           </div>
-          <div class="six columns">
-            <?php dynamic_sidebar('footer-left2'); ?>
+          <div class="one-third column">
+            <?php dynamic_sidebar('footer-middle'); ?>
           </div>
-          <div class="six columns">
+          <div class="one-third column">
               <?php dynamic_sidebar('footer-right'); ?>
           </div>
         </div>

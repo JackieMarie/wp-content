@@ -74,7 +74,7 @@ h1 {
 
 h2 {
 	font-family: 'Roboto Slab', serif;
-	/* font-size: 25px; */
+	display: none;
 }
 
 h3 {
@@ -132,6 +132,7 @@ header .container {
 	background-color: #ffffff;
 	color: #000;
 	width: 100vw;
+	text-align: center;
 }
 
 .menu-header-menu-container {
@@ -170,6 +171,12 @@ ul#menu-header-menu a:hover{
   text-decoration: underline;
 }
 
+img {
+ width: auto;
+ padding: 20px 0;
+}
+
+
 /*  FOOTER  */
 
 /*
@@ -185,7 +192,7 @@ footer {
 }
 
 footer p {
-	color: #000;
+	color: #fff;
 }
 
 /***** HOME PAGE *****/
@@ -286,16 +293,25 @@ footer p {
 
 /***** CONTACT PAGE *****/
 
+form {
+	border: 2px solid #e3e3e3;
+	padding: 30px 0 10px 45px;
+	max-width: 600px;
+}
+
 input.wpcf7-form-control.wpcf7-text {
-    width: 100%;
+  width: 90%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
 }
 
 textarea.wpcf7-form-control.wpcf7-textarea {
-    width: 100%;
+  width: 90%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
 }
 
-.img-contact {
-  width: 100%;
-  max-width: 1000px;
-  /* padding-left: 0px; */
+select.wpcf7-form-control.wpcf7-select {
+	padding: 2px;
+	width: 50%;
 }
