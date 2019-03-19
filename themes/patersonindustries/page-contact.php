@@ -24,10 +24,5 @@
        ?>
     </article>
   </section>
-  <section class="row">
-    <article class="twelve columns">
-      <?php dynamic_sidebar('call-to-action'); ?>
-    </article>
-  </section>
-</main>
+  </main>
 <?php get_footer(); ?>

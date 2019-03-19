@@ -244,8 +244,8 @@ register_sidebar( array(
   'description'   =>    'Widget for Call to Action section on pages',
   'before_widget' =>    '<div class="call-to-action">',
   'after_widget'  =>    '</div>',
-  'before_title'  =>    '<h2 class="widget-title-cta">',
-  'after_title'   =>    '</h2>',
+  'before_title'  =>    '<h3 class="widget-title-cta">',
+  'after_title'   =>    '</h3>',
 ));
 
 //HOME PAGE WIDGETS

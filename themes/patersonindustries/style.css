@@ -102,18 +102,6 @@ a:visited {
 	text-decoration: underline;
 }
 
-/* Improve readability when focused and also mouse hovered in all browsers.*/
-a:hover {
-  outline: 0;
-	color: #85755B;
-	text-decoration: underline;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
 /* BUTTONS - SEE SKELETON.CSS FILE */
 
 /* .button {
@@ -141,39 +129,41 @@ a:hover {
 /*  HEADER AND NAVIGATION  */
 
 header .container {
-	background-color:#084324;
-	color: #fff;
+	background-color: #ffffff;
+	color: #000;
 	width: 100vw;
 }
 
 .menu-header-menu-container {
-  /* background-color:#084324;
-	color: #fff; */
-	padding: 10px 8px;
+  background-color:#0e5841;
+	color: #fff;
+	width: 100vw;
+	padding-top: 30px;
+	text-align: center;
 }
 
 header .row {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 ul#menu-header-menu {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 ul#menu-header-menu li {
-    display: inline;
-    padding-right: 8px;
+  display: inline;
+  padding-right: 8px;
 }
 
 ul#menu-header-menu a {
-    text-decoration: none;
-		font-family: 'Roboto';
-    font-size: 20px;
-    padding: 10px 8px;
-    color: #ffffff;
+  text-decoration: none;
+	font-family: 'Roboto';
+  font-size: 20px;
+  padding: 10px 30px;
+  color: #ffffff;
   }
 
 ul#menu-header-menu a:hover{
@@ -190,11 +180,8 @@ footer .container {
 
 footer {
 	background-color: #0e5841;
-	padding: 5% 0;
+	padding-top: 40px;
 	width: 100vw;
-	position: fixed;
-	left: 0;
-	bottom: 0;
 }
 
 footer p {
