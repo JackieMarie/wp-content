@@ -303,6 +303,28 @@ register_sidebar( array(
   'after_title'   =>    '</h3>',
 ));
 
+//SIDEBAR WIDGET AREAS - About and Contact page
+//Sidebar widget
+  register_sidebar( array(
+    'name'          =>    ('Sidebar'),
+    'id'            =>    'sidebar',
+    'description'   =>    'Sidebar widget area',
+    'before_widget' =>    '<div class="widget-sidebar">',
+    'after_widget'  =>    '</div>',
+    'before_title'  =>    '<h4 class="widget-title">',
+    'after_title'   =>    '</h4>',
+  ));
+
+//Sidebar Widget - About
+  register_sidebar( array(
+    'name'          =>    ('Sidebar About'),
+    'id'            =>    'sidebar-about',
+    'description'   =>    'About Page Sidebar widget area',
+    'before_widget' =>    '<div class="widget-sidebar-about">',
+    'after_widget'  =>    '</div>',
+    'before_title'  =>    '<h4 class="widget-title">',
+    'after_title'   =>    '</h4>',
+  ));
 
 
 

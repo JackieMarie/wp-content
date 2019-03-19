@@ -25,9 +25,9 @@
        ?>
     </div>
   <!--Widget for Triangle image -->
-    <div class="five columns">
-
-    </div>
+  <article class="six columns">
+    <?php get_sidebar(); ?>
+  </article>
   </main>
   <!--Two Widgets for Equipment and Experience -->
     <div class="row" id="pipe-background">
