@@ -12,20 +12,15 @@
     </div>
   </header>
   <!--Certifications -->
-  <section class="row">
-    <article class="twelve columns">
-      <?php dynamic_sidebar('certification'); ?>
-    </article>
-  </section>
-  <!--Our Crew -->
-<<<<<<< HEAD
   <main class="row">
-    <section class="six columns">
-=======
-  <main class="row green">
-    <div class="eight columns">
->>>>>>> b04aa907fbc6726344a395a895b5eed34bb83500
-      <?php dynamic_sidebar('safety-crew'); ?>
+    <section class="twelve columns">
+      <?php dynamic_sidebar('certification'); ?>
+    </section>
+  <!--Our Crew -->
+    <section class="row green">
+      <div class="twelve columns">
+        <?php dynamic_sidebar('safety-crew'); ?>
+      </div>
     </section>
   </main>
   <!--Current Safety Record -->
@@ -38,14 +33,13 @@
     </article>
   </section>
   <!--AIMSIO Application -->
-<<<<<<< HEAD
   <section class="row">
     <article class="four columns">
-=======
-  <div class="row grey">
-    <div class="four columns">
->>>>>>> b04aa907fbc6726344a395a895b5eed34bb83500
-      <?php dynamic_sidebar('aimsio-image'); ?>
+      <div class="row grey">
+        <div class="four columns">
+          <?php dynamic_sidebar('aimsio-image'); ?>
+        </div>
+      </div>
     </article>
     <article class="eight columns">
       <?php dynamic_sidebar('aimsio-text'); ?>

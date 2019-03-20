@@ -17,9 +17,9 @@
       <?php dynamic_sidebar('service-content'); ?>
     </div>
   <!--Widgets for Triangle images -->
-    <div class="five columns">
-
-    </div>
+    <article class="five columns">
+      <?php get_sidebar(); ?>
+    </article>
   </main>
   <!--Past Projects -->
     <div class="row" id="pipe-background">

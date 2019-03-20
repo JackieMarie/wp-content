@@ -93,13 +93,18 @@ background, a {
 }
 
 a:link {
-  color: #0e5841;
+  color: #ffffff;
 	text-decoration: none;
 }
 
-a:visited {
-	color: #0e5841;
+a:hover {
+	color: #ffffff;
 	text-decoration: underline;
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none;
 }
 
 /* BUTTONS - SEE SKELETON.CSS FILE */
@@ -179,36 +184,48 @@ img {
 
 /*  FOOTER  */
 
-/*
-footer .container {
-  background-color: #084324;
-  padding-top: 45px;
-} */
-
 footer {
 	background-color: #0e5841;
-	padding-top: 40px;
-	width: 100vw;
+	padding-top: 2%;
+	width: 100%;
 }
 
 footer p {
 	color: #fff;
 }
 
+.footer-link a {
+	color: #fff;
+}
+
+li.no-label {
+	display: inline-flex;
+	padding-right: 15px;
+}
+
+span.fa.fa-2x.fa-instagram {
+    color: #fff;
+}
+
+span.fa.fa-2x.fa-instagram {
+    color: #fff;
+}
+
+span.fa.fa-2x.fa-linkedin {
+    color: #fff;
+}
+
+a.post-edit-link {
+    display: none;
+}
+
 /***** HOME PAGE *****/
-
-
-
-
-
-
-
-
 
 
 
 /***** ABOUT PAGE *****/
 
+/* Pipe-background isn't working - this id needs to be deleted */
 #pipe-background {
 	background-image: url('http://justbelievedesigns.com/patersonindustries/wp-content/uploads/2019/03/construction-material-grid-metal-35543-transparent.jpg');
 }
@@ -221,16 +238,7 @@ footer p {
 
 
 
-
-
-
-
-
 /***** SERVICES PAGE *****/
-
-
-
-
 
 
 
@@ -261,29 +269,7 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
 /***** CAREER PAGE *****/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -296,7 +282,7 @@ footer p {
 form {
 	border: 2px solid #e3e3e3;
 	padding: 30px 0 10px 45px;
-	max-width: 600px;
+	max-width: 1000px;
 }
 
 input.wpcf7-form-control.wpcf7-text {
@@ -314,4 +300,37 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 select.wpcf7-form-control.wpcf7-select {
 	padding: 2px;
 	width: 50%;
+}
+.img-contact {
+	width: 100%;
+}
+
+.img-contact-large {
+  max-width: 350px;
+}
+
+.img-contact-small {
+	max-width: 150px;
+}
+
+article.five.columns.img-contact {
+  padding-top: 15%;
+}
+
+@media (min-width: 320px) {
+	.img-contact {
+		display: none;
+	}
+}
+
+@media (min-width: 550px) {
+	.img-contact {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 900px) {
+	article.five.columns.img-contact {
+  		padding-top: 3%;
+	}
 }

@@ -303,8 +303,8 @@ register_sidebar( array(
   'after_title'   =>    '</h3>',
 ));
 
-//SIDEBAR WIDGET AREAS - About and Contact page
-//Sidebar widget
+//SIDEBAR WIDGET AREAS - Services and Contact page
+//Sidebar widget - SERVICES PAGE (FOR TRIANGLE)
   register_sidebar( array(
     'name'          =>    ('Sidebar'),
     'id'            =>    'sidebar',
@@ -315,12 +315,12 @@ register_sidebar( array(
     'after_title'   =>    '</h4>',
   ));
 
-//Sidebar Widget - About
+//Sidebar Widget - CONTACT PAGE (FOR TRIANGLE)
   register_sidebar( array(
-    'name'          =>    ('Sidebar About'),
-    'id'            =>    'sidebar-about',
+    'name'          =>    ('Sidebar Contact'),
+    'id'            =>    'sidebar-contact',
     'description'   =>    'About Page Sidebar widget area',
-    'before_widget' =>    '<div class="widget-sidebar-about">',
+    'before_widget' =>    '<div class="widget-sidebar-contact">',
     'after_widget'  =>    '</div>',
     'before_title'  =>    '<h4 class="widget-title">',
     'after_title'   =>    '</h4>',
