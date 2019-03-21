@@ -249,6 +249,19 @@ register_sidebar(array(
   'after_title'   =>    '</h2>',
 ));
 
+
+//CAREER PAGE WIDGETS
+register_sidebar(array(
+  'name'          =>    ('Benefits'),
+  'id'            =>    'benefits',
+  'description'   =>    'Company benefits',
+  'before_widget' =>    '<div class="benefits">',
+  'after_widget'  =>    '</div>',
+  'before_title'  =>    '<h2>',
+  'after_title'   =>    '</h2>',
+));
+
+
 //CALL TO ACTION Widget
 register_sidebar( array(
   'name'          =>    ('Call To Action'),
