@@ -1,20 +1,15 @@
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="six columns">
-            <?php dynamic_sidebar('footer-left1'); ?>
-          </div>
-          <div class="six columns">
-            <?php dynamic_sidebar('footer-left2'); ?>
-          </div>
-          <div class="six columns">
-              <?php dynamic_sidebar('footer-right'); ?>
-          </div>
-        </div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <!--Address-->
+      <div class="twelve columns">
+          <?php dynamic_sidebar('footer-right'); ?>
       </div>
-    </footer>
+    </div>
+  </div>
+</footer>
 
 <?php wp_footer(); ?>
 
-  </body>
+</body>
 </html>
