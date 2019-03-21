@@ -13,7 +13,7 @@
   </header>
   <!--Manifesto Section  -->
   <main class="row">
-    <div class="seven columns">
+    <section class="twelve columns">
       <?php
         if(have_posts()){
           while(have_posts()){
@@ -23,11 +23,13 @@
           } //ends while loop
         } //ends if statement
        ?>
-    </div>
+    </section>
   <!--Widget for Triangle image -->
-  <article class="five columns">
-    <?php get_sidebar(); ?>
-  </article>
+    <section>
+      <article class="twelve columns">
+        <?php get_sidebar(); ?>
+      </article>
+    </section>
   </main>
   <!--Two Widgets for Equipment and Experience -->
     <div class="row" id="pipe-background">
