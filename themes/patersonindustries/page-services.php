@@ -11,6 +11,7 @@
       </div>
     </div>
   </header>
+  <!--WP LOOP -->
   <section class="row">
     <article class="twelve columns">
       <?php
