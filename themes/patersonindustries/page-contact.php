@@ -12,7 +12,7 @@
     </article>
   </section>
   <section class="row">
-    <article class="seven columns">
+    <article class="twelve columns">
       <?php
         if(have_posts()){
           while(have_posts()){
@@ -22,9 +22,6 @@
           } //ends while loop
         } //ends if statement
        ?>
-    </article>
-    <article class="five columns img-contact">
-      <?php get_sidebar(); ?>
     </article>
   </section>
   </main>

@@ -316,8 +316,8 @@ register_sidebar( array(
   'after_title'   =>    '</h3>',
 ));
 
-//SIDEBAR WIDGET AREAS - Services and Contact page
-//Sidebar widget - SERVICES PAGE (FOR TRIANGLE)
+//SIDEBAR WIDGET AREAS - About or Services
+//Sidebar widget - SERVICES or ABOUT PAGE (FOR TRIANGLE)
   register_sidebar( array(
     'name'          =>    ('Sidebar'),
     'id'            =>    'sidebar',
@@ -328,16 +328,6 @@ register_sidebar( array(
     'after_title'   =>    '</h4>',
   ));
 
-//Sidebar Widget - CONTACT PAGE (FOR TRIANGLE)
-  register_sidebar( array(
-    'name'          =>    ('Sidebar Contact'),
-    'id'            =>    'sidebar-contact',
-    'description'   =>    'About Page Sidebar widget area',
-    'before_widget' =>    '<div class="widget-sidebar-contact">',
-    'after_widget'  =>    '</div>',
-    'before_title'  =>    '<h4 class="widget-title">',
-    'after_title'   =>    '</h4>',
-  ));
 
 
 
@@ -362,8 +352,8 @@ add_action('init', 'custom_menus');
 
 //Creates a Custom Header
 $custom_image_header = array(
-  'width'   =>  171,
-  'height'  =>  31,
+  'width'   =>  400,
+  'height'  =>  200,
   'uploads' =>  true,
 );
 
