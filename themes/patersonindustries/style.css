@@ -209,8 +209,9 @@ header .container {
   background-color:#0e5841;
 	color: #fff;
 	width: 100vw;
-	padding-top: 5px;
+	padding-top: 10px;
 	text-align: center;
+	height: 35px;
 }
 
 header .row {
@@ -231,9 +232,10 @@ ul#menu-header-menu li {
 
 ul#menu-header-menu a {
   text-decoration: none;
-	font-family: 'Roboto';
-  font-size: 20px;
-  padding: 0px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 30px;
   color: #ffffff;
   }
 
@@ -243,9 +245,7 @@ ul#menu-header-menu a:hover{
 
 img {
  width: auto;
- padding: 20px 0;
 }
-
 
 /*  FOOTER  */
 
@@ -290,7 +290,6 @@ a.post-edit-link {
 
 /***** ABOUT PAGE *****/
 
-/* Pipe-background isn't working - this id needs to be deleted */
 #pipe-background {
 	background-image: url('http://justbelievedesigns.com/patersonindustries/wp-content/uploads/2019/03/construction-material-grid-metal-35543-transparent.jpg');
 }
