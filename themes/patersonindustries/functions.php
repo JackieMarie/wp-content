@@ -351,8 +351,8 @@ add_action('init', 'custom_menus');
 
 //Creates a Custom Header
 $custom_image_header = array(
-  'width'   =>  400,
-  'height'  =>  200,
+  'width'   =>  250,
+  'height'  =>  80,
   'uploads' =>  true,
 );
 
