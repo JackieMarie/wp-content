@@ -282,7 +282,7 @@ a.post-edit-link {
 @media (min-width: 550px) {
 	li.no-label {
 		display: inline-flex;
-		padding-right: 15px;
+		padding-right: 10px;
 	}
 
 	.fa-2x {
