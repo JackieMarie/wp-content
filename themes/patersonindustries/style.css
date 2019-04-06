@@ -107,6 +107,14 @@ a:visited {
 	text-decoration: none;
 }
 
+/* .elementor a:hover {
+	text-decoration: underline;
+}
+
+h4.elementor-heading-title.elementor-size-default a:hover {
+	text-decoration: underline;
+}
+ */
 /* BUTTONS - SEE SKELETON.CSS FILE */
 
 #button-primary,
@@ -148,53 +156,7 @@ input[type="button"] {
 	  border-color: #0e5841;
 	  background-color: #fff;
 	  outline: 0; }
-	#button-primary,
-	.button.button-primary,
-	button.button-primary,
-	input[type="submit"].button-primary,
-	input[type="reset"].button-primary,
-	input[type="button"].button-primary {
-	  color: #fff;
-	  background-color: #0e5841;
-	  border-color: #0e5841; }
-	#button-primary,
-	.button.button-primary:hover,
-	button.button-primary:hover,
-	input[type="submit"].button-primary:hover,
-	input[type="reset"].button-primary:hover,
-	input[type="button"].button-primary:hover,
-	.button.button-primary:focus,
-	button.button-primary:focus,
-	input[type="submit"].button-primary:focus,
-	input[type="reset"].button-primary:focus,
-	input[type="button"].button-primary:focus {
-	  color: #0e5841;
-	  background-color: #fff;
-	  border-color: #0e5841;
-	  text-decoration: none; }
 
-
-/* .button {
-  background-color: #084324;
-  color: white;
-  border: 2px solid white;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  /* transition-duration: 0.4s;
-  cursor: pointer;
-} */
-/*
-.button:hover {
-  background-color: white;
-  color: #084324;
-  border: 2px solid #084324;
-} */
 
 /*  HEADER AND NAVIGATION  */
 
@@ -203,6 +165,10 @@ header .container {
 	color: #000;
 	width: 100vw;
 	text-align: center;
+}
+
+.twelve.columns.nav-menu-logo {
+    padding-top: 5px;
 }
 
 .menu-header-menu-container {
@@ -247,6 +213,7 @@ img {
  width: auto;
 }
 
+
 /*  FOOTER  */
 
 footer {
@@ -264,40 +231,77 @@ footer p {
 }
 
 li.no-label {
-	display: inline-flex;
-	padding-right: 15px;
+	display: block;
+	padding-right: 2px;
+}
+
+.fa-2x {
+	font-size: 1.5em !important;
+}
+
+span.fa.fa-2x.fa-facebook {
+    color: #fff;
+}
+
+span.fa.fa-2x.fa-facebook:hover {
+    color: #85755b;
+}
+
+span.fa.fa-2x.fa-facebook:active {
+    color: #85755b;
 }
 
 span.fa.fa-2x.fa-instagram {
     color: #fff;
 }
 
-span.fa.fa-2x.fa-instagram {
-    color: #fff;
+span.fa.fa-2x.fa-instagram:hover {
+    color: #85755b;
+}
+
+span.fa.fa-2x.fa-instagram:active {
+    color: #85755b;
 }
 
 span.fa.fa-2x.fa-linkedin {
     color: #fff;
 }
 
+span.fa.fa-2x.fa-linkedin:hover {
+    color: #85755b;
+}
+
+span.fa.fa-2x.fa-linkedin:active {
+    color: #85755b;
+}
+
 a.post-edit-link {
     display: none;
 }
 
-/***** HOME PAGE *****/
+@media (min-width: 550px) {
+	li.no-label {
+		display: inline-flex;
+		padding-right: 15px;
+	}
 
+	.fa-2x {
+		font-size: 2em !important;
+	}
+}
+
+/***** HOME PAGE *****/
+h4.elementor-heading-title.elementor-size-default a:hover {
+    text-decoration: underline;
+}
 
 
 /***** ABOUT PAGE *****/
 
+/* Pipe-background isn't working - this id needs to be deleted */
 #pipe-background {
 	background-image: url('http://justbelievedesigns.com/patersonindustries/wp-content/uploads/2019/03/construction-material-grid-metal-35543-transparent.jpg');
 }
-
-
-
-
-
 
 
 
@@ -309,23 +313,7 @@ a.post-edit-link {
 
 
 
-
-
-
-
-
-
-
 /***** SAFETY PAGE *****/
-
-
-
-
-
-
-
-
-
 
 
 
@@ -345,56 +333,29 @@ a.post-edit-link {
 
 form {
 	border: 2px solid #e3e3e3;
-	padding: 30px 0 10px 45px;
+	padding: 30px 30px;
 	max-width: 1000px;
 }
 
-input.wpcf7-form-control.wpcf7-text {
-  width: 90%;
-	font-family: "Roboto", sans-serif;
-	font-weight: 400;
+.contact-link a {
+	color: #000;
 }
 
-textarea.wpcf7-form-control.wpcf7-textarea {
-  width: 90%;
-	font-family: "Roboto", sans-serif;
-	font-weight: 400;
+.contact-link a:hover {
+	text-decoration: underline;
 }
 
-select.wpcf7-form-control.wpcf7-select {
-	padding: 2px;
-	width: 50%;
-}
-.img-contact {
-	width: 100%;
-}
-
-.img-contact-large {
-  max-width: 350px;
-}
-
-.img-contact-small {
-	max-width: 150px;
-}
-
-article.five.columns.img-contact {
-  padding-top: 15%;
-}
-
-@media (min-width: 320px) {
-	.img-contact {
-		display: none;
-	}
-}
-
-@media (min-width: 550px) {
-	.img-contact {
-		display: inline-block;
-	}
-}
-
-@media (min-width: 900px) {
-	article.five.columns.img-contact {
-  		padding-top: 3%;
-	}
+#elementor .elementor-element-13fcd4c .eael-wpforms .wpforms-submit-container .wpforms-submit {
+    display: inline-block;
+    background-color: #084324;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #084324;
+    border-radius: 4px 4px 4px 4px;
+    padding: 0% 5% 0% 5%;
+    font-family: "Roboto", Roboto, Roboto Slab;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
