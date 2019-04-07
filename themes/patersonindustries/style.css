@@ -67,31 +67,25 @@ html {
 
 /* FONTS AND LINKS */
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
-	/* font-size: 32px; */
 }
 
 h2 {
-	font-family: 'Roboto Slab', serif;
 	display: none;
 }
 
 h3 {
-	font-family: 'Roboto Slab', sans-serif;
-	/* font-size: 21px; */
+	color: #0e5841;
+	font-size: 4rem;
+	font-weight: 400;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
-	/* font-size: 16px; */
 	color: #000000;
 }
 
-/* background, a {
-	color: white;
-}
- */
 a:link {
   text-decoration: none;
 }
