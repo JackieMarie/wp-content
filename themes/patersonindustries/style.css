@@ -287,6 +287,11 @@ a.flyer-link:hover {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	.elementor-343 .elementor-element.elementor-element-9b08000 > .elementor-widget-container {
+    	padding: 0% !important;
+	}
+}
 
 /***** CAREER PAGE *****/
 
